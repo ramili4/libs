@@ -1,0 +1,10 @@
+Architecture: amd64
+Depends: libmicrohttpd-dev
+Description: A library providing a lightweight HTTP Server for Prometheus metric scraping
+Maintainer: Demitri Swan
+Package: libpromhttp-dev
+Priority: optional
+Section: devel
+Version: 0.1.3
+Installed-Size: 22
+

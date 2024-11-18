@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC   -shared -Wl,-soname,libpromhttp.so -o libpromhttp.so CMakeFiles/promhttp.dir/src/promhttp.c.o  -L/code/promhttp/../prom/build -Wl,-rpath,/code/promhttp/../prom/build: -lprom -lmicrohttpd -lpthread 
