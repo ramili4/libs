@@ -1,0 +1,14 @@
+/usr/lib/libprom.so
+/usr/include/prom_histogram_buckets.h
+/usr/include/prom_linked_list.h
+/usr/include/prom.h
+/usr/include/prom_metric_sample_histogram.h
+/usr/include/prom_collector.h
+/usr/include/prom_metric_sample.h
+/usr/include/prom_metric.h
+/usr/include/prom_histogram.h
+/usr/include/prom_gauge.h
+/usr/include/prom_alloc.h
+/usr/include/prom_counter.h
+/usr/include/prom_map.h
+/usr/include/prom_collector_registry.h

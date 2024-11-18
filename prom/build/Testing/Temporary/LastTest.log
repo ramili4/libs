@@ -1,0 +1,309 @@
+Start testing: Aug 23 06:20 UTC
+----------------------------------------------------------
+1/14 Testing: prom_gauge_test
+1/14 Test: prom_gauge_test
+Command: "/code/prom/build/prom_gauge_test"
+Directory: /code/prom/build
+"prom_gauge_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_gauge_test.c:105:test_gauge_inc:PASS
+/code/prom/test/prom_gauge_test.c:106:test_gauge_dec:PASS
+/code/prom/test/prom_gauge_test.c:107:test_gauge_add:PASS
+/code/prom/test/prom_gauge_test.c:108:test_gauge_sub:PASS
+/code/prom/test/prom_gauge_test.c:109:test_gauge_set:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prom_gauge_test" end time: Aug 23 06:20 UTC
+"prom_gauge_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/14 Testing: prom_collector_test
+2/14 Test: prom_collector_test
+Command: "/code/prom/build/prom_collector_test"
+Directory: /code/prom/build
+"prom_collector_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_collector_test.c:40:test_prom_collector:PASS
+/code/prom/test/prom_collector_test.c:41:test_prom_process_collector:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"prom_collector_test" end time: Aug 23 06:20 UTC
+"prom_collector_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/14 Testing: prom_collector_registry_test
+3/14 Test: prom_collector_registry_test
+Command: "/code/prom/build/prom_collector_registry_test"
+Directory: /code/prom/build
+"prom_collector_registry_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_collector_registry_test.c:127:test_prom_collector_registry_bridge:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prom_collector_registry_test" end time: Aug 23 06:20 UTC
+"prom_collector_registry_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/14 Testing: prom_counter_test
+4/14 Test: prom_counter_test
+Command: "/code/prom/build/prom_counter_test"
+Directory: /code/prom/build
+"prom_counter_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_counter_test.c:57:test_counter_inc:PASS
+/code/prom/test/prom_counter_test.c:58:test_counter_add:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prom_counter_test" end time: Aug 23 06:20 UTC
+"prom_counter_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/14 Testing: prom_linked_list_test
+5/14 Test: prom_linked_list_test
+Command: "/code/prom/build/prom_linked_list_test"
+Directory: /code/prom/build
+"prom_linked_list_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_linked_list_test.c:100:test_prom_linked_list_append:PASS
+/code/prom/test/prom_linked_list_test.c:101:test_prom_linked_list_push:PASS
+/code/prom/test/prom_linked_list_test.c:102:test_prom_linked_list_remove:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"prom_linked_list_test" end time: Aug 23 06:20 UTC
+"prom_linked_list_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/14 Testing: prom_histogram_test
+6/14 Test: prom_histogram_test
+Command: "/code/prom/build/prom_histogram_test"
+Directory: /code/prom/build
+"prom_histogram_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_histogram_test.c:78:test_prom_histogram:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prom_histogram_test" end time: Aug 23 06:20 UTC
+"prom_histogram_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/14 Testing: prom_histogram_buckets_test
+7/14 Test: prom_histogram_buckets_test
+Command: "/code/prom/build/prom_histogram_buckets_test"
+Directory: /code/prom/build
+"prom_histogram_buckets_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_histogram_buckets_test.c:51:test_prom_histogram_buckets_new:PASS
+/code/prom/test/prom_histogram_buckets_test.c:52:test_prom_histogram_buckets_linear:PASS
+/code/prom/test/prom_histogram_buckets_test.c:53:test_prom_histogram_buckets_expontential:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prom_histogram_buckets_test" end time: Aug 23 06:20 UTC
+"prom_histogram_buckets_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/14 Testing: prom_map_test
+8/14 Test: prom_map_test
+Command: "/code/prom/build/prom_map_test"
+Directory: /code/prom/build
+"prom_map_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_map_test.c:92:test_prom_map:PASS
+/code/prom/test/prom_map_test.c:93:test_prom_map_when_large:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"prom_map_test" end time: Aug 23 06:20 UTC
+"prom_map_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/14 Testing: prom_metric_formatter_test
+9/14 Test: prom_metric_formatter_test
+Command: "/code/prom/build/prom_metric_formatter_test"
+Directory: /code/prom/build
+"prom_metric_formatter_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_metric_formatter_test.c:132:test_prom_metric_formatter_load_l_value:PASS
+/code/prom/test/prom_metric_formatter_test.c:133:test_prom_metric_formatter_load_sample:PASS
+/code/prom/test/prom_metric_formatter_test.c:134:test_prom_metric_formatter_load_metric:PASS
+/code/prom/test/prom_metric_formatter_test.c:135:test_prom_metric_formatter_load_metrics:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"prom_metric_formatter_test" end time: Aug 23 06:20 UTC
+"prom_metric_formatter_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/14 Testing: prom_metric_test
+10/14 Test: prom_metric_test
+Command: "/code/prom/build/prom_metric_test"
+Directory: /code/prom/build
+"prom_metric_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_metric_test.c:42:test_metric_with_no_labels:PASS
+/code/prom/test/prom_metric_test.c:43:test_metric_sample_from_labels:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prom_metric_test" end time: Aug 23 06:20 UTC
+"prom_metric_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/14 Testing: prom_metric_sample_test
+11/14 Test: prom_metric_sample_test
+Command: "/code/prom/build/prom_metric_sample_test"
+Directory: /code/prom/build
+"prom_metric_sample_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_metric_sample_test.c:68:test_prom_metric_sample_add:PASS
+/code/prom/test/prom_metric_sample_test.c:69:test_prom_metric_sample_sub:PASS
+/code/prom/test/prom_metric_sample_test.c:70:test_prom_metric_set:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prom_metric_sample_test" end time: Aug 23 06:20 UTC
+"prom_metric_sample_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/14 Testing: prom_process_limits_test
+12/14 Test: prom_process_limits_test
+Command: "/code/prom/build/prom_process_limits_test"
+Directory: /code/prom/build
+"prom_process_limits_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_process_limits_test.c:205:test_prom_process_limits_rdp_next_token:PASS
+/code/prom/test/prom_process_limits_test.c:206:test_prom_process_limits_rdp_match:PASS
+/code/prom/test/prom_process_limits_test.c:207:test_prom_process_limits_rdp_hard_limit:PASS
+/code/prom/test/prom_process_limits_test.c:208:test_prom_process_limits_rdp_word:PASS
+/code/prom/test/prom_process_limits_test.c:209:test_prom_process_limits_rdp_word_and_space:PASS
+/code/prom/test/prom_process_limits_test.c:210:test_prom_process_limits_rdp_limit:PASS
+/code/prom/test/prom_process_limits_test.c:211:test_prom_process_limits_rdp_letter:PASS
+/code/prom/test/prom_process_limits_test.c:213:test_prom_process_limits_file_parsing:PASS
+
+-----------------------
+8 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"prom_process_limits_test" end time: Aug 23 06:20 UTC
+"prom_process_limits_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/14 Testing: prom_string_builder_test
+13/14 Test: prom_string_builder_test
+Command: "/code/prom/build/prom_string_builder_test"
+Directory: /code/prom/build
+"prom_string_builder_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_string_builder_test.c:59:test_prom_string_builder_add_str:PASS
+/code/prom/test/prom_string_builder_test.c:60:test_prom_string_builder_add_char:PASS
+/code/prom/test/prom_string_builder_test.c:61:test_prom_string_builder_dump:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prom_string_builder_test" end time: Aug 23 06:20 UTC
+"prom_string_builder_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/14 Testing: prom_procfs_test
+14/14 Test: prom_procfs_test
+Command: "/code/prom/build/prom_procfs_test"
+Directory: /code/prom/build
+"prom_procfs_test" start time: Aug 23 06:20 UTC
+Output:
+----------------------------------------------------------
+/code/prom/test/prom_procfs_test.c:29:test_prom_procfs_buf:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prom_procfs_test" end time: Aug 23 06:20 UTC
+"prom_procfs_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 23 06:20 UTC

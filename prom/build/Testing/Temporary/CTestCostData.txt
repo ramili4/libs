@@ -1,0 +1,15 @@
+prom_gauge_test 1 0.0029742
+prom_collector_test 1 0.00951128
+prom_collector_registry_test 1 0.00384304
+prom_counter_test 1 0.00463293
+prom_linked_list_test 1 0.0107927
+prom_histogram_test 1 0.00352444
+prom_histogram_buckets_test 1 0.00286345
+prom_map_test 1 0.0395346
+prom_metric_formatter_test 1 0.0150809
+prom_metric_test 1 0.00299433
+prom_metric_sample_test 1 0.00406758
+prom_process_limits_test 1 0.00798897
+prom_string_builder_test 1 0.00431863
+prom_procfs_test 1 0.00367974
+---

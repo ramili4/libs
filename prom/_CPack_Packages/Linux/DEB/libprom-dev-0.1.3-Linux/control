@@ -1,0 +1,9 @@
+Architecture: amd64
+Description: A prometheus client library
+Maintainer: Demitri Swan
+Package: libprom-dev
+Priority: optional
+Section: devel
+Version: 0.1.3
+Installed-Size: 122
+
